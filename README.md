@@ -1,7 +1,7 @@
 ﻿# **Equinox**
 
 ## Project Descripton
-
+<img src="assets/logo/logo-color.png" alt="Brand Logo" width="200">
  *Welcome to Equinox, Where Cocktails Align With the Seasons​*
 
 *At Equinox, we believe that every cocktail is an experience—one shaped by time, place, and the rhythm of nature. Inspired by the changing seasons, our recipes and curated selections are crafted to reflect the flavours, moods, and ingredients of the moment.*
@@ -98,7 +98,7 @@ As a local to the area I like to register for upcoming events so I can add it to
 
 **User Story 5**
 
-As a member of the community I like to view the images of the bar and gain an understanding of what the bar is about before decide I visit. 
+As a person who frequently visits the bars of Newcastle, I like to view the images of the bar and gain an understanding of what the bar is about before I decide to visit. 
 
 **Acceptance Criteria:**
 * The homepage will have a large image visable as soon as you enter the website.
@@ -139,4 +139,4 @@ The overall website is designed to capture the ambience of the bar. A clean look
 
 #### Wireframes
 
-These wireframes have been made using [Balsamiq](https://balsamiq.com/ "link to balsamiq"). 
+The wireframes have been made using [Balsamiq](https://balsamiq.com/ "link to balsamiq"). 
