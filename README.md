@@ -2,6 +2,7 @@
 
 ## Project Descripton
 <img src="assets/logo/logo-color.png" alt="Brand Logo" width="200">
+ 
  *Welcome to Equinox, Where Cocktails Align With the Seasons​*
 
 *At Equinox, we believe that every cocktail is an experience—one shaped by time, place, and the rhythm of nature. Inspired by the changing seasons, our recipes and curated selections are crafted to reflect the flavours, moods, and ingredients of the moment.*
