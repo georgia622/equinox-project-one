@@ -9,6 +9,10 @@
     font-family: "Lora", serif;
 }
 
+body {
+    background-color: #304326;
+}
+
 /*Header and navbar styling*/
 .navbar {
     display: flex; 
@@ -46,6 +50,16 @@ h1 {
 .drinks-link:hover,
 .whats-on-link:hover {
     color: #D49987 ;
+}
+
+/*Homepage Hero Image*/
+/*Code for hero image styling credit to love running project, code institute*/
+
+.hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("../images/home-page-hero-image.jpg") no-repeat center center/cover;
+  position: relative;
 }
 
 
