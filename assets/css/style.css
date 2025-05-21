@@ -10,7 +10,7 @@
 
 /*General Styling*/
 body {
-    background-color: #fbfdd4;
+    background-color: #D49987;
     font-family: "Lora", serif;
 }
 
@@ -87,8 +87,6 @@ h1 {
     color: #304326;
     font-size: 1.9rem;
     font-family: "Alice", serif;
-    /*Code for text shadow from w3school tutorial*/
-    text-shadow: 2px 2px #D49987;
 }
 
 .section-image {
