@@ -28,7 +28,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
-
+/*Logo styling*/
 .logo-link{
     font-size: 4rem;
     padding-left: 20px;
@@ -214,7 +214,7 @@ header {
     header {
         display: flex;
         flex-direction: column;
-        height: 100px;
+        height: 120px;
     }
 
     .home-link,
@@ -228,6 +228,7 @@ header {
     .navbar {
         display: flex;
         justify-content: space-evenly;
+       
     }
 
     /*Content sections*/
