@@ -10,7 +10,7 @@
 
 /*General Styling*/
 body {
-    background-color: #D49987;
+    background-color: #f2e5d9;
     font-family: "Lora", serif;
 }
 
@@ -91,8 +91,8 @@ h1 {
 }
 
 .section-image {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     border: solid 5px #304326;
     object-fit: cover;
