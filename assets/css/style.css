@@ -65,7 +65,8 @@ h1 {
 
 /*Main content styling*/
 
-.first-section-hp {
+.first-section-hp,
+.second-section-hp {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -73,7 +74,8 @@ h1 {
     color: #333333;
 }
 
-p {
+.content-left,
+.content-right {
     width: 100%;
     font-size: 1.4rem;
     margin-top: 40px;
