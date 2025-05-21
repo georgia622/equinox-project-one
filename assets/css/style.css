@@ -6,11 +6,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Lora", serif;
 }
-
+/*General Styling*/
 body {
     background-color: #fbfdd4;
+    font-family: "Lora", serif;
 }
 
 /*Header and navbar styling*/
