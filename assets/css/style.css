@@ -29,12 +29,13 @@ header {
     justify-content: space-between;
 }
 
-h1 {
+.logo-link{
     font-size: 4rem;
     padding-left: 20px;
     letter-spacing: 3px;
     color: #fbfdd4;
     font-family: "Alice", serif;
+    text-decoration: none;
 }
 
 /*Navbar links*/
@@ -49,7 +50,8 @@ h1 {
 
 .home-link:hover,
 .drinks-link:hover,
-.whats-on-link:hover {
+.whats-on-link:hover,
+.logo-link:hover {
     color: #D49987;
 }
 
