@@ -83,12 +83,12 @@ h1 {
     line-height: 35px;
 }
 
-h2 {
+.section-heading {
     color: #304326;
     font-size: 1.9rem;
     font-family: "Alice", serif;
     /*Code for text shadow from w3school tutorial*/
-    text-shadow: 3px 3px #f4f1f1;
+    text-shadow: 2px 2px #D49987;
 }
 
 .section-image {
@@ -101,6 +101,18 @@ h2 {
     width: 100%;
     object-fit: cover;
 }
+
+.second-section-hp {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content-right {
+    text-align: right;
+}
+
+
 
 /*Media Queries for 768px and up*/
 /*Media Query for homepage*/
