@@ -28,8 +28,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
+
 /*Logo styling*/
-.logo-link{
+.logo-link {
     font-size: 4rem;
     padding-left: 20px;
     letter-spacing: 3px;
@@ -114,6 +115,36 @@ header {
 
 .content-right {
     text-align: right;
+}
+
+/*Footer Styling*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #304326;
+}
+
+.opening-times,
+.contact-us,
+.location {
+    list-style-type: none;
+    text-align: center;
+    color: #fbfdd4;
+    font-size: 20px;
+}
+.location,
+.contact-us {
+    line-height: 35px;
+}
+
+
+.footer-heading {
+    font-family: "Alice", serif;
+    font-size: 1.4rem;
+    color: #fbfdd4;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
 }
 
 
@@ -228,7 +259,7 @@ header {
     .navbar {
         display: flex;
         justify-content: space-evenly;
-       
+
     }
 
     /*Content sections*/
