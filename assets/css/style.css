@@ -122,6 +122,7 @@ header {
 footer {
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
     background-color: #304326;
 }
 
@@ -131,20 +132,34 @@ footer {
     list-style-type: none;
     text-align: center;
     color: #fbfdd4;
-    font-size: 20px;
+    font-size: 13px;
 }
+
 .location,
 .contact-us {
-    line-height: 35px;
+    line-height: 25px;
+}
+
+.opening-times {
+    padding-bottom:3px;
 }
 
 
 .footer-heading {
     font-family: "Alice", serif;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #fbfdd4;
     letter-spacing: 2px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
+}
+/*Social Media Icons*/
+.social-icons {
+    color: #fbfdd4;
+    font-size: 20px;
+    padding: 20px;
+}
+.social-links {
+    
 }
 
 
