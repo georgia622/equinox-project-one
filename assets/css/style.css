@@ -69,7 +69,8 @@ header {
 /*Main content styling*/
 
 .first-section-hp,
-.second-section-hp {
+.second-section-hp,
+.third-section-hp {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -185,7 +186,8 @@ footer {
     }
 
     .first-section-hp,
-    .second-section-hp {
+    .second-section-hp,
+    .third-section-hp {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
