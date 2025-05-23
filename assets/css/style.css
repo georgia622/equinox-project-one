@@ -120,7 +120,7 @@ header {
 
 /*Footer Styling*/
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -134,8 +134,9 @@ header {
     color: #fbfdd4;
     font-size: 15px;
     padding: 13px;
-    background-color: rgb(51,51,51, 0.6);
+    background-color: rgb(51, 51, 51, 0.6);
 }
+
 .list {
     list-style-type: none;
     padding: 13px;
@@ -179,16 +180,15 @@ header {
     .content-right {
         width: 100%;
         font-size: 1rem;
-        margin-top: 40px;
+        margin: 40px;
         text-align: left;
-        line-height: 35px;
     }
 
     .section-image {
         width: 300px;
         height: 300px;
         display: flex;
-        align-self: center;
+        align-self: space-between;
         padding: 20px;
     }
 
@@ -197,9 +197,8 @@ header {
     .third-section-hp {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         margin: 50px;
-        color: #333333;
     }
 
     .section-heading {
@@ -209,6 +208,13 @@ header {
 
     .large-image {
         height: 400px
+    }
+
+    /*Footer Styling*/
+    .opening-times,
+    .contact-us,
+    .location {
+        font-size: 0.7rem;
     }
 }
 
@@ -299,12 +305,12 @@ header {
     }
 
     .first-section-hp,
-    .second-section-hp {
+    .second-section-hp
+    .third-section-hp {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin: 40px;
-        color: #333333;
     }
 
     .section-heading {
@@ -318,5 +324,11 @@ header {
     }
 
     /*Footer Styling*/
-    .footer {}
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icons {
+        font-size: 15px;
+    }
 }
