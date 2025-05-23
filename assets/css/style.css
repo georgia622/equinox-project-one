@@ -73,6 +73,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 50px;
     color: #333333;
 
@@ -91,7 +92,6 @@ header {
     color: #304326;
     font-size: 2.5rem;
     font-family: "Alice", serif;
-    margin-top: 70px;
 }
 
 .section-image {
