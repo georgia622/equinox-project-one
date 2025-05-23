@@ -120,21 +120,25 @@ header {
 
 /*Footer Styling*/
 
-footer {
+.footer{
     display: flex;
-    justify-content: space-around;
-    background-color: #304326;
+    justify-content: center;
     width: 100%;
+    background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.jpg);
 }
 
 .opening-times,
 .contact-us,
 .location {
-    list-style-type: none;
     text-align: center;
     color: #fbfdd4;
     font-size: 15px;
-    padding-bottom: 3px;
+    padding: 13px;
+    background-color: rgb(51,51,51, 0.6);
+}
+.list {
+    list-style-type: none;
+    padding: 13px;
 }
 
 .footer-heading {
@@ -145,6 +149,9 @@ footer {
     padding-bottom: 5px;
     padding-top: 10px;
 }
+
+
+
 
 /*Social Media Icons*/
 .social-icons {
