@@ -123,6 +123,7 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #304326;
+    width: 100%;
 }
 
 .opening-times,
@@ -154,6 +155,7 @@ footer {
 .social-icons:hover {
     color: #D49987;
 }
+
 
 
 
@@ -305,4 +307,7 @@ footer {
     .large-image {
         height: 200px
     }
+
+    /*Footer Styling*/
+    .footer {}
 }
