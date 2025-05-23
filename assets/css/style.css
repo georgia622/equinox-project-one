@@ -121,8 +121,7 @@ header {
 
 footer {
     display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: space-around;
     background-color: #304326;
 }
 
@@ -132,16 +131,11 @@ footer {
     list-style-type: none;
     text-align: center;
     color: #fbfdd4;
-    font-size: 13px;
-}
-
-.location,
-.contact-us {
-    line-height: 25px;
+    font-size: 15px;
 }
 
 .opening-times {
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 
 
@@ -152,15 +146,14 @@ footer {
     letter-spacing: 2px;
     padding-bottom: 5px;
 }
+
 /*Social Media Icons*/
 .social-icons {
     color: #fbfdd4;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 25px;
+    padding: 40px;
 }
-.social-links {
-    
-}
+
 
 
 
