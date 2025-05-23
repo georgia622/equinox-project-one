@@ -132,12 +132,8 @@ footer {
     text-align: center;
     color: #fbfdd4;
     font-size: 15px;
-}
-
-.opening-times {
     padding-bottom: 3px;
 }
-
 
 .footer-heading {
     font-family: "Alice", serif;
@@ -145,6 +141,7 @@ footer {
     color: #fbfdd4;
     letter-spacing: 2px;
     padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 /*Social Media Icons*/
@@ -152,6 +149,10 @@ footer {
     color: #fbfdd4;
     font-size: 25px;
     padding: 40px;
+}
+
+.social-icons:hover {
+    color: #D49987;
 }
 
 
