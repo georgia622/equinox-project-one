@@ -127,6 +127,7 @@ header {
     border-bottom: solid 20px #304326;
     color: #333333;
 }
+
 /*To swap the placement of the image and text*/
 .summer-menu,
 .winter-menu {
@@ -142,11 +143,12 @@ header {
     font-family: "Alice", serif;
     text-align: center;
     padding: 20px;
-    color:#304326;
+    color: #304326;
 }
+
 .subheading-menu {
-    text-decoration:underline;
-    color:#333333;
+    text-decoration: underline;
+    color: #333333;
 }
 
 .menu-items {
@@ -174,6 +176,7 @@ header {
     justify-content: center;
     width: 100%;
     background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.jpg);
+
 }
 
 .opening-times,
