@@ -119,20 +119,36 @@ header {
 }
 
 /*Drinks Menu Styling*/
-.heading-section{
-  font-size: 1.5rem;
-  font-family: "Alice",serif;
+.spring-menu {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.spring-menu{
-    width: 50%;
-    margin-left: 50%;
-    color: #333333;
+.heading-section {
+    font-size: 1.5rem;
+    font-family: "Alice", serif;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
+
+
 .menu-items {
-    display: flex;
-    font-size: 1 rem; 
-    margin-top: 50px;
+    font-size: 1.3 rem;
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.section-image-menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+    margin-right: 150px;
 }
 
 /*Footer Styling*/
