@@ -119,8 +119,9 @@ header {
 }
 
 /*Drinks Menu Styling*/
-/*Styling for the whole spring menu section*/
-.spring-menu {
+/*Styling to position the text and image*/
+.spring-menu,
+.autumn-menu {
     display: flex;
     justify-content: flex-end;
     border-bottom: solid 40px #304326;
