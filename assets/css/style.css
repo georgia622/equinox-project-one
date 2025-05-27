@@ -118,6 +118,23 @@ header {
     text-align: right;
 }
 
+/*Drinks Menu Styling*/
+.heading-section{
+  font-size: 1.5rem;
+  font-family: "Alice",serif;
+}
+
+.spring-menu{
+    width: 50%;
+    margin-left: 50%;
+    color: #333333;
+}
+.menu-items {
+    display: flex;
+    font-size: 1 rem; 
+    margin-top: 50px;
+}
+
 /*Footer Styling*/
 
 .footer {
