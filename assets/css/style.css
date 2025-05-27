@@ -144,7 +144,10 @@ header {
     padding: 20px;
     color:#304326;
 }
-
+.subheading-menu {
+    text-decoration:underline;
+    color:#333333;
+}
 
 .menu-items {
     font-size: 1rem;
