@@ -125,8 +125,6 @@ header {
 .autumn-menu {
     display: flex;
     justify-content: flex-end;
-    border-bottom: solid 30px #333333;
-    color: #333333;
 }
 
 /*To swap the placement of the image and text*/
@@ -135,9 +133,11 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
-    border-bottom: solid 30px #333333;
-    color: #333333;
 }
+ .border {
+     border-bottom: solid 30px #333333;
+    color: #333333;
+ }
 
 .heading-section {
     font-size: 1.5rem;
