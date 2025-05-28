@@ -125,7 +125,7 @@ header {
 .autumn-menu {
     display: flex;
     justify-content: flex-end;
-    border-bottom: solid 30px #304326;
+    border-bottom: solid 30px #333333;
     color: #333333;
 }
 
@@ -135,7 +135,7 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
-    border-bottom: solid 30px #304326;
+    border-bottom: solid 30px #333333;
     color: #333333;
 }
 
