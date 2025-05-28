@@ -119,12 +119,13 @@ header {
 }
 
 /*Drinks Menu Styling*/
+
 /*Styling to position the text and image*/
 .spring-menu,
 .autumn-menu {
     display: flex;
     justify-content: flex-end;
-    border-bottom: solid 20px #304326;
+    border-bottom: solid 30px #304326;
     color: #333333;
 }
 
@@ -134,7 +135,7 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
-    border-bottom: solid 20px #304326;
+    border-bottom: solid 30px #304326;
     color: #333333;
 }
 
@@ -165,8 +166,7 @@ header {
     height: 500px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 10px;
-    margin-right: 150px;
+    padding: 30px;
 }
 
 /*Footer Styling*/
@@ -222,30 +222,29 @@ header {
 
 
 /*Media Queries for 768px and up*/
-/*Media Query for homepage*/
 @media screen and (max-width: 768px) {
     .hero-image {
         height: 300px;
     }
 
+    /*To align all content to the left*/
     .content-left,
     .content-right {
         width: 100%;
         font-size: 1rem;
         margin: 20px;
-        /*To align all content to the left*/
         text-align: left;
     }
 
-    .section-image {
-        /*To make the section image smaller to fit the screen size*/
+    /*To make the section image smaller to fit the screen size*/
+    .section-image,
+    .section-image-menu {
         width: 300px;
         height: 300px;
     }
 
-    .first-section-hp,
-    .second-section-hp,
-    .third-section-hp {
+    /*To change layout to column*/
+    .column {
         display: flex;
         flex-direction: column;
     }
@@ -255,11 +254,17 @@ header {
         margin-top: 25px;
     }
 
+    /*To make the large images smaller to fit the screen*/
     .large-image {
-        /*To make the large images smaller to fit the screen*/
         height: 400px
     }
 
+    /*To center content*/
+    .menu-items,
+    .section-image-menu {
+        margin: auto;
+        padding-top: 20px;
+    }
 
     /*Footer Styling*/
     .opening-times,
@@ -270,7 +275,6 @@ header {
 }
 
 /*Media Queries for 1024px and up*/
-/*Media Queries for home page*/
 @media screen and (min-width: 1024px) {
     .hero-image {
         height: 500px;
@@ -283,17 +287,22 @@ header {
     }
 
     .content-left,
-    .content-right {
+    .content-right,
+    .menu-items {
         width: 100%;
         font-size: 1rem;
         /*To push section heading down*/
         margin-top: 40px;
 
     }
+
+    /*To reposition images on drinks menu*/
+    .section-image-menu {
+        margin: auto;
+    }
 }
 
 /*Media Queries for 1440px and up*/
-/*Media Query for homepage*/
 @media screen and (min-width: 1440px) {
 
     .content-left,
@@ -334,15 +343,22 @@ header {
 
     /*Content sections*/
     .content-left,
-    .content-right {
+    .content-right,
+    .menu-items {
 
         font-size: 0.8rem;
         text-align: center;
-        /*Margin set to 0 to center the text content*/
-        margin-left: 0;
+        /*Margin set to auto to center the text content*/
+        margin-left: auto;
     }
 
-    .section-image {
+    /*Drinks menu headings adjusted to fit screen size*/
+    .heading-section {
+        font-size: 1rem;
+    }
+
+    /*Images adjusted for mobile */
+    .mobile-img {
         width: 200px;
         height: 200px;
     }
