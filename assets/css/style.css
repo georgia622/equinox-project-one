@@ -15,12 +15,12 @@ body {
 }
 
 /*Header and navbar styling*/
-.navbar {
+#navbar {
     display: flex;
     align-items: center;
 }
 
-header {
+.equinox-logo {
     background-color: #304326;
     width: 100%;
     height: 90px;
@@ -30,7 +30,7 @@ header {
 }
 
 /*Logo styling*/
-.logo-link {
+#logo-link {
     font-size: 4rem;
     padding-left: 20px;
     letter-spacing: 3px;
@@ -197,6 +197,7 @@ header {
     padding: 15px;
 }
 
+
 /*Footer Styling*/
 
 .footer {
@@ -336,7 +337,7 @@ header {
 @media screen and (max-width: 600px) {
 
     /*Header and Navigation bar styling*/
-    h1 {
+    .nav-title {
         font-size: 3rem;
         margin-top: 4px;
         display: flex;
@@ -344,10 +345,10 @@ header {
     }
 
     /*To put navigation links under the heading*/
-    header {
+    .equinox-logo {
         display: flex;
         flex-direction: column;
-        height: 120px;
+        height: 130px;
     }
 
     .home-link,
@@ -356,9 +357,10 @@ header {
         font-size: 0.9rem;
     }
 
-    .navbar {
+    #navbar {
         display: flex;
         justify-content: space-evenly;
+
     }
 
     /*Content sections*/
