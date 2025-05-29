@@ -170,14 +170,21 @@ header {
     object-fit: cover;
     padding: 30px;
 }
+
 /*What's on page styling*/
-.whats-on-image{
-    width: 500px;
-}
-.container {
+
+.intro-content {
     display: flex;
-    
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
 }
+
+.whats-on {
+    object-position: 0 33%;
+    height: 500px;
+}
+
 /*Footer Styling*/
 
 .footer {
@@ -185,7 +192,6 @@ header {
     justify-content: center;
     width: 100%;
     background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.jpg) no-repeat center center/cover;
-
 }
 
 .opening-times,
