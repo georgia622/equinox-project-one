@@ -170,7 +170,14 @@ header {
     object-fit: cover;
     padding: 30px;
 }
-
+/*What's on page styling*/
+.whats-on-image{
+    width: 500px;
+}
+.container {
+    display: flex;
+    
+}
 /*Footer Styling*/
 
 .footer {
