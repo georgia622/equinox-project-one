@@ -192,6 +192,10 @@ header {
     color: #fbfdd4;
     padding: 20px;
 }
+/*Padding styled as gutters removed*/
+.col {
+    padding: 15px;
+}
 
 /*Footer Styling*/
 
