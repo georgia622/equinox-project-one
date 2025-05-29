@@ -179,7 +179,7 @@ header {
 }
 
 .whats-on {
-    object-position: 0 33%;
+    object-position: 33% 33%;
     height: 500px;
 }
 
@@ -187,7 +187,11 @@ header {
     width: 60%;
     margin: auto;
 }
-
+.card-body {
+    background-color: #304326;
+    color: #fbfdd4;
+    padding: 20px;
+}
 
 /*Footer Styling*/
 
