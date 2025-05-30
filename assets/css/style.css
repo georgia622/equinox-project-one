@@ -385,7 +385,8 @@ body {
     /*Content sections*/
     .content-left,
     .content-right,
-    .menu-items {
+    .menu-items,
+    .intro-content {
 
         font-size: 0.8rem;
         text-align: center;
@@ -396,6 +397,7 @@ body {
     /*Drinks menu headings adjusted to fit screen size*/
     .heading-section {
         font-size: 1rem;
+        padding: 0;
     }
 
     /*Images adjusted for mobile */
