@@ -392,12 +392,16 @@ body {
         text-align: center;
         /*Margin set to auto to center the text content*/
         margin-left: auto;
+        line-height: 15px;
+        
     }
 
     /*Drinks menu headings adjusted to fit screen size*/
     .heading-section {
         font-size: 1rem;
+        line-height: 20px;
         padding: 0;
+        margin-bottom: 20px;
     }
 
     /*Images adjusted for mobile */
@@ -414,6 +418,10 @@ body {
 
     .large-image {
         height: 200px
+    }
+    
+    .whatson-signup #signup-form {
+        width: 90%;
     }
 
     /*Footer Styling*/
