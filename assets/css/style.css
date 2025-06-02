@@ -224,7 +224,7 @@ body {
 
 /*Footer Styling*/
 
-.footer {
+.footer-equinox {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -254,6 +254,7 @@ body {
     letter-spacing: 2px;
     padding-bottom: 5px;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 /*Social Media Icons*/
@@ -372,14 +373,13 @@ body {
     .equinox-logo {
         display: flex;
         flex-direction: column;
-        height: 130px;
+        height: 135px;
     }
 
     .home-link,
     .drinks-link,
     .whats-on-link {
         font-size: 0.9rem;
-
     }
 
     #navbar {
@@ -433,12 +433,21 @@ body {
     }
 
     /*Footer Styling*/
-    .footer {
+    .footer-equinox {
         display: flex;
         flex-direction: column;
     }
-
+    
     .social-icons {
         font-size: 17px;
+    }
+    /*To override bootstrap styling in footer on whats on page*/
+    
+    .override-padding {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .footer-heading {
+        margin-bottom: 0;
     }
 }
