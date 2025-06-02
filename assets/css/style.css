@@ -184,15 +184,18 @@ body {
     margin: auto;
     margin-top: 30px;
 }
+
 .card-body {
     background-color: #304326;
     color: #fbfdd4;
     padding: 20px;
 }
+
 /*Padding styled as gutters removed*/
 .col {
     padding: 15px;
 }
+
 /*Sign Up form styling*/
 .whatson-signup #signup-form {
     display: flex;
@@ -202,16 +205,18 @@ body {
     width: 60%;
     background-color: #304326;
     padding: 20px;
-    color:#fbfdd4;
+    color: #fbfdd4;
     margin-bottom: 15px;
 }
+
 /*Button Styling*/
 #submit {
     width: 100px;
     margin-top: 10px;
     color: #333333;
 }
-#submit:hover{
+
+#submit:hover {
     background-color: #D49987;
 }
 
@@ -374,6 +379,7 @@ body {
     .drinks-link,
     .whats-on-link {
         font-size: 0.9rem;
+
     }
 
     #navbar {
@@ -393,7 +399,7 @@ body {
         /*Margin set to auto to center the text content*/
         margin-left: auto;
         line-height: 15px;
-        
+
     }
 
     /*Drinks menu headings adjusted to fit screen size*/
@@ -419,8 +425,10 @@ body {
     .large-image {
         height: 200px
     }
-    
-    .whatson-signup #signup-form {
+
+    .whatson-signup #signup-form,
+    .introduction,
+    .menu-items {
         width: 90%;
     }
 
