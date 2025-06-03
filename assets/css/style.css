@@ -30,13 +30,12 @@ body {
 }
 
 /*Logo styling*/
-#equinox-logo-link {
+.nav-title {
     font-size: 4rem;
     padding-left: 20px;
     letter-spacing: 3px;
     color: #fbfdd4;
     font-family: "Alice", serif;
-    text-decoration: none;
     font-weight: 600;
 }
 
