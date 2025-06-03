@@ -254,7 +254,7 @@ body {
     font-weight: bold;
 }
 
-/*Social Media Icons*/
+ /*Social Media Icons*/
 .social-icons {
     color: #fbfdd4;
     font-size: 25px;
@@ -264,6 +264,7 @@ body {
 .social-icons:hover {
     color: #D49987;
 }
+
 
 /*Media Queries for 768px and up*/
 @media screen and (max-width: 768px) {
@@ -370,7 +371,7 @@ body {
     .equinox-logo {
         display: flex;
         flex-direction: column;
-        height: 135px;
+        height: 130px;
     }
 
     .home-link,
