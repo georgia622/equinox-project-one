@@ -131,7 +131,7 @@ body {
 }
 
 /*Border styling for menu items*/
-.border {
+.menu-border {
     border-bottom: solid 30px #304326;
     color: #333333;
 }
