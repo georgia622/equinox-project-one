@@ -119,10 +119,11 @@ body {
 }
 
 .menu-border {
-    border-bottom: solid 30px #304326;
+    border-bottom: solid 20px #304326;
     color: #333333;
-    margin: 0;
-    
+}
+.extra-border{
+    border-top:solid 20px #304326;
 }
 
 .heading-section {
