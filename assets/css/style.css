@@ -22,6 +22,7 @@ body {
     font-family: "Alice", serif;
 }
 
+/*Text align styles*/
 .align-start {
     text-align: left;
 }
@@ -58,19 +59,14 @@ body {
 }
 
 /*Navbar links*/
-.home-link,
-.drinks-link,
-.whats-on-link {
+.nav-link {
     padding: 20px;
     color: #fbfdd4;
     text-decoration: none;
     font-size: 2rem;
 }
 
-.home-link:hover,
-.drinks-link:hover,
-.whats-on-link:hover,
-.logo-link:hover {
+.nav-link:hover {
     color: #D49987;
 }
 
@@ -145,6 +141,11 @@ body {
     padding: 10px;
     font-size: 1.5rem;
     margin: auto;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /*What's on page styling*/
@@ -300,9 +301,7 @@ body {
         height: 110px;
     }
 
-    .home-link,
-    .drinks-link,
-    .whats-on-link {
+    .nav-link {
         font-size: 1.3rem;
     }
 
@@ -321,6 +320,7 @@ body {
 
     .heading-section {
         font-size: 1.7rem;
+        padding: 0;
     }
 
     /*Images adjusted for mobile */
