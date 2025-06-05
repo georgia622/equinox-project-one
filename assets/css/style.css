@@ -7,10 +7,31 @@
     padding: 0;
 }
 
+html {
+    font-size: 10px;
+}
+
 /*General Styling*/
 body {
     background-color: #f2e5d9;
     font-family: "Lora", serif;
+    font-size: 1.6rem;
+}
+
+.font-style {
+    font-family: "Alice", serif;
+}
+
+.align-start {
+    text-align: left;
+}
+
+.align-end {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
 }
 
 /*Header and navbar styling*/
@@ -30,12 +51,10 @@ body {
 
 /*Logo styling*/
 .nav-title {
-    font-size: 4rem;
+    font-size: 6rem;
     padding-left: 20px;
     letter-spacing: 3px;
     color: #fbfdd4;
-    font-family: "Alice", serif;
-    font-weight: 600;
 }
 
 /*Navbar links*/
@@ -45,7 +64,7 @@ body {
     padding: 20px;
     color: #fbfdd4;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .home-link:hover,
@@ -67,28 +86,18 @@ body {
 
 /*Main content homepage styling*/
 
-.first-section-hp,
-.second-section-hp,
-.third-section-hp {
+.home-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 20px;
     color: #333333;
-
+    font-size: 1.6rem;
 }
 
-.content-left,
-.content-right {
+.content {
     width: 100%;
-    text-align: left;
     line-height: 35px;
-}
-
-.section-heading {
-    color: #304326;
-    font-size: 2rem;
-    font-family: "Alice", serif;
 }
 
 .section-image {
@@ -96,22 +105,14 @@ body {
     height: 600px;
     border-radius: 50%;
     object-fit: cover;
+    margin: auto;
+    padding: 20px;
 }
 
 .large-image {
     height: 600px;
     width: 100%;
     object-fit: cover;
-}
-
-.second-section-hp {
-    text-align: right;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.content-right {
-    text-align: right;
 }
 
 /*Drinks Menu Styling*/
@@ -129,15 +130,13 @@ body {
     flex-direction: row-reverse;
 }
 
-/*Border styling for menu items*/
 .menu-border {
     border-bottom: solid 30px #304326;
     color: #333333;
 }
 
 .heading-section {
-    font-size: 1.5rem;
-    font-family: "Alice", serif;
+    font-size: 2.5rem;
     text-align: center;
     padding: 20px;
     color: #304326;
@@ -151,23 +150,14 @@ body {
 .menu-items {
     font-size: 1rem;
     width: 50%;
-    text-align: center;
     padding: 10px;
-    margin-bottom: 20px;
-}
-
-.section-image-menu {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 20px;
+    font-size: 1.5rem;
+    margin: auto;
 }
 
 /*What's on page styling*/
 
 .intro-content {
-    text-align: center;
     line-height: 30px;
 }
 
@@ -192,7 +182,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 60%;
     background-color: #304326;
     padding: 20px;
@@ -220,12 +210,10 @@ body {
     background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.jpg) no-repeat center center/cover;
 }
 
-.opening-times,
-.contact-us,
-.location {
+.footer-details {
     text-align: center;
     color: #fbfdd4;
-    font-size: 15px;
+    font-size: 1.3rem;
     padding: 13px;
     background-color: rgb(51, 51, 51, 0.6);
 }
@@ -237,19 +225,17 @@ body {
 }
 
 .footer-heading {
-    font-family: "Alice", serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #fbfdd4;
     letter-spacing: 2px;
     padding-bottom: 5px;
     padding-top: 10px;
-    font-weight: bold;
 }
 
 /*Social Media Icons*/
 .social-icons {
     color: #fbfdd4;
-    font-size: 25px;
+    font-size: 2.3rem;
     padding: 40px;
 }
 
@@ -264,31 +250,19 @@ body {
         height: 300px;
     }
 
-    /*To align all content to the left*/
-    .content-left,
-    .content-right {
-        width: 100%;
-        font-size: 1rem;
-        margin: 20px;
+    .content {
         text-align: left;
     }
 
     /*To make the section image smaller to fit the screen size*/
-    .section-image,
-    .section-image-menu {
+    .section-image {
         width: 300px;
         height: 300px;
     }
 
-    /*To change layout to column*/
     .column {
         display: flex;
         flex-direction: column;
-    }
-
-    .section-heading {
-        text-align: center;
-        margin-top: 25px;
     }
 
     /*To make the large images smaller to fit the screen*/
@@ -297,18 +271,11 @@ body {
     }
 
     /*To center content*/
-    .menu-items,
-    .section-image-menu {
+    .menu-items {
         margin: auto;
         padding-top: 20px;
     }
 
-    /*Footer Styling*/
-    .opening-times,
-    .contact-us,
-    .location {
-        fo
-    }
 }
 
 /*Media Queries for 1024px and up*/
@@ -322,20 +289,6 @@ body {
         width: 500px;
         height: 500px;
     }
-
-    /*To reposition images on drinks menu*/
-    .section-image-menu {
-        margin: auto;
-    }
-}
-
-/*Media Queries for 1440px and up*/
-@media screen and (min-width: 1440px) {
-
-    .content-left,
-    .content-right {
-        font-size: 1.3rem;
-    }
 }
 
 /*Media Queries for 600px and up */
@@ -343,7 +296,7 @@ body {
 
     /*Header and Navigation bar styling*/
     .nav-title {
-        font-size: 3rem;
+        font-size: 5rem;
         margin-top: 4px;
         display: flex;
         justify-content: center;
@@ -353,13 +306,13 @@ body {
     .equinox-logo {
         display: flex;
         flex-direction: column;
-        height: 130px;
+        height: 110px;
     }
 
     .home-link,
     .drinks-link,
     .whats-on-link {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
     }
 
     #navbar {
@@ -369,51 +322,35 @@ body {
 
     /*Content sections*/
     .mobile-content {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
         text-align: center;
         /*Margin set to auto to center the text content*/
-        margin-left: auto;
-        line-height: 15px;
+        margin: auto;
     }
 
-    /*Drinks menu headings adjusted to fit screen size*/
     .heading-section {
-        font-size: 1rem;
-        line-height: 20px;
-        padding: 0;
-        margin-bottom: 20px;
+        font-size: 1.7rem;
     }
 
     /*Images adjusted for mobile */
     .mobile-img {
         width: 200px;
         height: 200px;
-    }
-
-    .section-heading {
-        text-align: center;
-        font-size: 1.5rem;
-        margin-top: 15px;
+        margin: auto;
     }
 
     .large-image {
         height: 200px
     }
 
-    .whatson-signup #signup-form,
-    .introduction,
-    .menu-items {
-        width: 90%;
-        padding-top: 10px;
-    }
-
-    /*Footer Styling*/
-    .footer-equinox {
-        display: flex;
-        flex-direction: column;
+    .mobile-width,
+    .mobile-width #signup-form {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 10px;
     }
 
     .social-icons {
-        padding:10px;
+        padding: 10px;
     }
 }
