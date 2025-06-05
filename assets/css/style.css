@@ -118,16 +118,8 @@ body {
 /*Drinks Menu Styling*/
 
 /*Styling to position the text and image*/
-.spring-menu,
-.autumn-menu {
+.menu-content {
     display: flex;
-}
-
-/*To swap the placement of the image and text*/
-.summer-menu,
-.winter-menu {
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .menu-border {
@@ -242,7 +234,6 @@ body {
 .social-icons:hover {
     color: #D49987;
 }
-
 
 /*Media Queries for 768px and up*/
 @media screen and (max-width: 768px) {
