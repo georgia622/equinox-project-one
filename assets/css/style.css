@@ -1,6 +1,5 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 /*To remove default styles*/
 * {
@@ -308,7 +307,7 @@ body {
     .opening-times,
     .contact-us,
     .location {
-        font-size: 0.7rem;
+        fo
     }
 }
 
@@ -415,16 +414,6 @@ body {
     }
 
     .social-icons {
-        font-size: 17px;
-    }
-
-    /*To override bootstrap styling in footer on whats on page*/
-    .override-padding {
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    .footer-heading {
-        margin-bottom: 0;
+        padding:10px;
     }
 }
