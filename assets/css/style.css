@@ -252,6 +252,9 @@ body {
         width: 300px;
         height: 300px;
     }
+    .heading-section {
+        text-align: center;
+    }
 
     .column {
         display: flex;
