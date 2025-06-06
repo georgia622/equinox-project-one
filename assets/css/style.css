@@ -70,6 +70,12 @@ body {
     color: #D49987;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
 /*Homepage Hero Image*/
 /*Code for hero image styling credit to love running project, code institute*/
 
@@ -122,8 +128,9 @@ body {
     border-bottom: solid 20px #304326;
     color: #333333;
 }
-.extra-border{
-    border-top:solid 20px #304326;
+
+.extra-border {
+    border-top: solid 20px #304326;
 }
 
 .heading-section {
@@ -241,9 +248,11 @@ body {
     border-radius: 0;
     font-size: 1.5rem;
 }
+
 .btn:hover {
     background-color: #D49987;
 }
+
 /*Media Queries for 768px and up*/
 @media screen and (max-width: 768px) {
     .hero-image {
@@ -261,6 +270,7 @@ body {
         width: 300px;
         height: 300px;
     }
+
     .heading-section {
         text-align: center;
     }
