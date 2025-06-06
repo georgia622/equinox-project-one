@@ -290,6 +290,10 @@ header {
         margin: auto;
         padding-top: 20px;
     }
+    .footer-details,
+    .footer-heading {
+        font-size: 1.8rem;
+    }
 
 }
 
@@ -366,5 +370,10 @@ header {
 
     .social-icons {
         padding: 10px;
+    }
+
+    .footer-details,
+    .footer-heading {
+        font-size: 1.5rem;
     }
 }
