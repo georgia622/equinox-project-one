@@ -235,6 +235,15 @@ body {
     color: #D49987;
 }
 
+.btn {
+    background-color: #304326;
+    color: #fbfdd4;
+    border-radius: 0;
+    font-size: 1.5rem;
+}
+.btn:hover {
+    background-color: #D49987;
+}
 /*Media Queries for 768px and up*/
 @media screen and (max-width: 768px) {
     .hero-image {
