@@ -290,13 +290,13 @@ header {
         margin: auto;
         padding-top: 20px;
     }
+
     .footer-details,
     .footer-heading {
         font-size: 1.8rem;
     }
 
 }
-
 /*Media Queries for 1024px and up*/
 @media screen and (min-width: 1024px) {
     .hero-image {
@@ -309,7 +309,6 @@ header {
         height: 500px;
     }
 }
-
 /*Media Queries for 600px and up */
 @media screen and (max-width: 600px) {
 
@@ -324,12 +323,14 @@ header {
     /*To put navigation links under the heading*/
     .equinox-logo {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         height: 110px;
     }
 
     .nav-link {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
+        padding: 5px;
     }
 
     #navbar {
@@ -339,7 +340,7 @@ header {
 
     /*Content sections*/
     .mobile-content {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         text-align: center;
         margin: auto;
     }
