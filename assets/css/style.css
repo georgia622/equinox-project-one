@@ -206,13 +206,13 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.jpg) no-repeat center center/cover;
+    background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.webp) no-repeat center center/cover;
 }
 
 .footer-details {
     text-align: center;
     color: #fbfdd4;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 13px;
     background-color: rgb(51, 51, 51, 0.6);
 }
@@ -224,7 +224,7 @@ header {
 }
 
 .footer-heading {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fbfdd4;
     letter-spacing: 2px;
     padding-bottom: 5px;
