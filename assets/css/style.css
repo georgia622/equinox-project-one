@@ -271,8 +271,8 @@ header {
     }
 }
 
-/*Media Queries for 768px and up*/
-@media screen and (max-width: 768px) {
+/*Media Queries for 899px*/
+@media screen and (max-width: 899px) {
     .hero-image {
         height: 300px;
     }
