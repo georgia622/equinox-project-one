@@ -30,7 +30,7 @@
 <body>
   <!--Header and Navigation bar-->
   <header class="equinox-logo">
-    <h1 class="nav-title font-style">Equinox</h1>
+    <h1 class="nav-title font-style mobile-margin">Equinox</h1>
     <nav id="navbar">
       <a href="#home" class="nav-link">
         Home
@@ -61,13 +61,14 @@
       </p>
     </div>
     <img src="assets/images/home-page-1st-section.webp" alt="Image showing the inside of the bar area"
-      class="section-image mobile-img">
+      class="section-image mobile-img mobile-margin">
   </section>
   <img src="assets/images/home-page-2nd-larg-img.jpg" alt="A close up image of a cocktail on the table"
     class="large-image">
   <!--Second Content Section-->
   <section class="home-section align-end column">
-    <img src="assets/images/home-page-2nd-section.webp" alt="Bartender holding a drink" class="section-image mobile-img">
+    <img src="assets/images/home-page-2nd-section.webp" alt="Bartender holding a drink"
+      class="section-image mobile-img mobile-margin">
     <div>
       <h2 class="heading-section font-style"><em>A Journey Through the Seasons</em></h2>
       <p class="content mobile-content align-end">Inspired by the changing seasons, our menu evolves in harmony with the
@@ -78,25 +79,25 @@
       </p>
     </div>
   </section>
-  <img src="assets/images/pexels-arina-krasnikova-7376897.jpg" class="large-image"
+  <img src="assets/images/two-cocktails.jpg" class="large-image"
     alt="An image of two cocktails side by side">
   <!--Third Section Content-->
   <section class="home-section column">
     <div>
-      <h2 class="heading-section font-style"> <em>Where exceptional evenings begin with thoughtful detail</em></h2>
-      <p class="content mobile-content align-start">At Equinox, service is an art — quietly attentive, never hurried,
-        always personal. From the moment you arrive,
-        our team is dedicated to creating a seamless, sensory experience. Whether guiding you through our seasonal
-        cocktail menu, offering tailored pairing suggestions, or simply anticipating your next need before you voice it,
-        we serve with intention, discretion, and grace.</p>
+      <h2 class="heading-section font-style"> <em>Golden Hour at Equinox</em></h2>
+      <p class="content mobile-content align-start">Any two cocktails for £18 | Weekdays, 5PM-7PM <br>
+        Join us for Golden Hour, our early evening invitation to explore the full Equinox cocktail menu — two
+        handcrafted drinks, your choice, for £18.
+        Whether it's a bold classic, a seasonal signature, or something unexpected, this is the perfect time to try
+        something new — or revisit a favourite.</p>
     </div>
-    <img src="assets/images/pexels-cottonbro-4667137.webp" class="section-image mobile-img"
+    <img src="assets/images/bartender.webp" class="section-image mobile-img"
       alt=" Picture of bartender making a drink">
   </section>
   <!--Spring Menu-->
   <section class="menu-content column menu-border extra-border" id="drinks-menu">
     <img src="assets/images/spring-menu.webp" alt="A cocktail from the spring menu" class="section-image mobile-img">
-    <div class="menu-items mobile-content mobile-width align-center">
+    <div class="menu-items mobile-content mobile-margin mobile-width align-center">
       <div class="heading-section">
         <h2 class="heading-section">Spring Collection</h2>
         <p><em>Inspired by renewal, botanicals, and subtle awakenings</em>
@@ -133,7 +134,7 @@
   <!--Summer Menu-->
   <section class="menu-content column menu-border row-reverse">
     <img src="assets/images/summer-menu.webp" alt="A cocktail from the summer menu" class="section-image mobile-img">
-    <div class="menu-items mobile-content mobile-width align-center">
+    <div class="menu-items mobile-content mobile-margin mobile-width align-center">
       <div class="heading-section font-style">
         <h2 class="heading-section">Summer Collection</h2>
         <p><em>Bright, bold, and built for golden evenings</em>
@@ -171,7 +172,7 @@
   <!--Autumn Menu-->
   <section class="menu-content column menu-border">
     <img src="assets/images/autumn-menu.webp" alt="A cocktail from the autumn menu" class="section-image mobile-img">
-    <div class="menu-items mobile-content mobile-width align-center">
+    <div class="menu-items mobile-content mobile-margin mobile-width align-center">
       <div class="heading-section font-style">
         <h2 class="heading-section">Autumn Collection</h2>
         <p><em>Earthy, spiced, and deeply rooted in warmth</em>
@@ -210,7 +211,7 @@
   <!--Winter Menu-->
   <section class="menu-content column menu-border row-reverse">
     <img src="assets/images/winter-menu.webp" alt="A cocktail from the winter menu" class="section-image mobile-img">
-    <div class="menu-items mobile-content mobile-width align-center">
+    <div class="menu-items mobile-content mobile-margin mobile-width align-center">
       <div class="heading-section font-style">
         <h2 class="heading-section">Winter Collection</h2>
         <p><em>Velvety, warming, and perfect for long nights</em>
@@ -254,13 +255,13 @@
       <p><em>Curated Evenings, Seasonal Immersion, Timeless Atmosphere.</em>
       </p>
     </div>
-    <div class="mobile-content align-center">
+    <div class="mobile-content mobile-margin align-center">
       <div>
         <p>At Equinox, each event is crafted to reflect the spirit of the season and the rhythm of the city.<br>
           From intimate tasting flights and live music pairings to hands-on cocktail ateliers, our calendar
           celebrates the art of gathering with intention. We invite you to explore what's ahead—and join us
           for a moment worth remembering.<br>
-          Contact us to find out more or fill out our events form to signup and join us.
+          <a href="#contact-us-link" class="contact-us">Contact us</a> to find out more or fill out our events form to signup and join us.
         </p>
       </div>
     </div>
@@ -279,13 +280,11 @@
             spritzes to rare stone fruit infusions.<br>Tickets: £35 per guest | Includes a welcome cocktail.
           </p>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
-            data-bs-target=".modal">
+          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target=".modal">
             Register Here
           </button>
           <!-- Modal -->
-          <div class="modal fade" tabindex="-1"
-            aria-hidden="true">
+          <div class="modal fade" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -293,7 +292,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST" name="Midsummer Reverie">
+                  <form target="_blank" action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST" name="Midsummer Reverie">
                     <div class="mb-3">
                       <div class="mb-3">
                         <label for="fullname-reverie" class="form-label">Full Name</label>
@@ -329,13 +328,11 @@
             event space.
           </p>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
-            data-bs-target=".modal">
+          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target=".modal">
             Register Here
           </button>
           <!-- Modal -->
-          <div class="modal fade" tabindex="-1"
-            aria-hidden="true">
+          <div class="modal fade" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -343,7 +340,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST" name="August Ember">
+                  <form target="_blank" action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST" name="August Ember">
                     <div class="mb-3">
                       <div class="mb-3">
                         <label for="fullname-ember" class="form-label">Full Name</label>
@@ -380,13 +377,11 @@
             Capacity: Limited to 16 guests, booking required.
           </p>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
-            data-bs-target=".modal">
+          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target=".modal">
             Register Here
           </button>
           <!-- Modal -->
-          <div class="modal fade" tabindex="-1"
-            aria-hidden="true">
+          <div class="modal fade" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -394,7 +389,8 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST" name=" Tasting Flight Nights">
+                  <form target="_blank" action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST"
+                    name=" Tasting Flight Nights">
                     <div class="mb-3">
                       <div class="mb-3">
                         <label for="fullname-tasting" class="form-label">Full Name</label>
@@ -431,13 +427,11 @@
             Capacity: 12 guests per class.
           </p>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
-            data-bs-target=".modal">
+          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target=".modal">
             Register Here
           </button>
           <!-- Modal -->
-          <div class="modal fade" tabindex="-1"
-            aria-hidden="true">
+          <div class="modal fade" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -445,7 +439,8 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST" name="The Equinox Cocktail Atelier">
+                  <form target="_blank" action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST"
+                    name="The Equinox Cocktail Atelier">
                     <div class="mb-3">
                       <div class="mb-3">
                         <label for="fullname-atelier" class="form-label">Full Name</label>
@@ -470,10 +465,10 @@
       </div>
     </div>
   </div>
-  <h2 class="heading-section font-style align-center">Contact Us</h2>
+  <h2 class="heading-section font-style align-center" id="contact-us-link">Contact Us</h2>
   <!--Sign Up form-->
   <div class="whatson-signup mobile-width"><!-- https://formsubmit.co/ used for form action -->
-    <form id="signup-form" action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST">
+    <form target="_blank" id="signup-form" action="https://formsubmit.co/georgiaswift95@gmail.com" method="POST">
       <label for="firstname">First Name</label>
       <input type="text" id="firstname" name="firstname" required>
       <label for="lastname">Last Name</label>
@@ -481,7 +476,7 @@
 
       <label for="email">Email Address</label>
       <input type="email" id="email" name="emailaddress" required>
-     
+
       <!--W3school tutorial used for textarea-->
       <label for="booking">How can we help?</label>
       <textarea id="booking" name="bookingdetails"></textarea>
@@ -529,8 +524,8 @@
   </div>
   <!--Bootstrap JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous" async></script>
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"
+    async></script>
 </body>
 
 </html>

@@ -66,7 +66,8 @@ body {
     font-size: 2rem;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.contact-us:hover {
     color: #D49987;
 }
 
@@ -200,13 +201,18 @@ header {
     background-color: #D49987;
 }
 
+.contact-us {
+    color: #333333;
+    text-decoration: underline #304326;
+}
+
 /*Footer Styling*/
 
 .footer-equinox {
     display: flex;
     justify-content: center;
     width: 100%;
-    background: url(../images/victoria-alexander-0W3KDIBCu4g-unsplash.webp) no-repeat center center/cover;
+    background: url(../images/footer-background.webp) no-repeat center center/cover;
 }
 
 .footer-details {
@@ -231,7 +237,6 @@ header {
     padding-top: 10px;
 }
 
-/*Social Media Icons*/
 .social-icons {
     color: #fbfdd4;
     font-size: 2.3rem;
@@ -251,6 +256,19 @@ header {
 
 .btn:hover {
     background-color: #D49987;
+}
+
+/*Media Queries for 1024px and up*/
+@media screen and (min-width: 1024px) {
+    .hero-image {
+        height: 500px;
+    }
+
+    /*To make the section images fit the page better*/
+    .section-image {
+        width: 500px;
+        height: 500px;
+    }
 }
 
 /*Media Queries for 768px and up*/
@@ -273,6 +291,7 @@ header {
 
     .heading-section {
         text-align: center;
+        padding-bottom: 10px;
     }
 
     .column {
@@ -297,27 +316,14 @@ header {
     }
 
 }
-/*Media Queries for 1024px and up*/
-@media screen and (min-width: 1024px) {
-    .hero-image {
-        height: 500px;
-    }
 
-    /*To make the section images fit the page better*/
-    .section-image {
-        width: 500px;
-        height: 500px;
-    }
-}
 /*Media Queries for 600px and up */
 @media screen and (max-width: 600px) {
 
     /*Header and Navigation bar styling*/
     .nav-title {
         font-size: 5rem;
-        margin-top: 4px;
-        display: flex;
-        justify-content: center;
+        padding: 0;
     }
 
     /*To put navigation links under the heading*/
@@ -338,11 +344,14 @@ header {
         justify-content: space-evenly;
     }
 
+    .mobile-margin {
+        margin: auto;
+    }
+
     /*Content sections*/
     .mobile-content {
         font-size: 1.6rem;
         text-align: center;
-        margin: auto;
     }
 
     .heading-section {
@@ -355,7 +364,6 @@ header {
     .mobile-img {
         width: 200px;
         height: 200px;
-        margin: auto;
     }
 
     .large-image {
