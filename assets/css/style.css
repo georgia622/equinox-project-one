@@ -258,6 +258,30 @@ header {
     background-color: #D49987;
 }
 
+.content-background {
+    background-color: #304326;
+}
+
+.submission-logo {
+    color: #fbfdd4;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.submission-content {
+    width: 40%;
+    color: #fbfdd4;
+    /*Code tutorial from stackoverflow*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
 /*Media Queries for 1024px and up*/
 @media screen and (min-width: 1024px) {
     .hero-image {
@@ -384,5 +408,9 @@ header {
     .footer-details,
     .footer-heading {
         font-size: 1.5rem;
+    }
+
+    .mobile-logo {
+        font-size: 5rem;
     }
 }
