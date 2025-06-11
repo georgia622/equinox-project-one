@@ -235,6 +235,7 @@ header {
 .list {
     list-style-type: none;
     padding: 13px;
+    text-decoration: none;
 }
 
 .footer-heading {
